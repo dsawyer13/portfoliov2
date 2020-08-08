@@ -28,11 +28,12 @@ div[class^="project-card-"] {
 
  img {
      max-width: 100%;
-     border-top-right-radius: 5px;
      border-top-left-radius: 5px;
+    @media (max-width: 767px) {
+        border-top-right-radius: 5px;
+    }
     @media screen and (min-width: 768px) {
         width: 50%;
-        border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;     
     }
   }
