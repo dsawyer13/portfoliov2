@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c2d10f59.chunk.css",
+    "main.js": "/static/js/main.f4ccaa14.chunk.js",
+    "main.js.map": "/static/js/main.f4ccaa14.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d6828ab7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d6828ab7.js.map",
+    "static/js/2.81f1d061.chunk.js": "/static/js/2.81f1d061.chunk.js",
+    "static/js/2.81f1d061.chunk.js.map": "/static/js/2.81f1d061.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.96162e74bfdc55b007a7503739561372.js": "/precache-manifest.96162e74bfdc55b007a7503739561372.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c2d10f59.chunk.css.map": "/static/css/main.c2d10f59.chunk.css.map",
+    "static/js/2.81f1d061.chunk.js.LICENSE.txt": "/static/js/2.81f1d061.chunk.js.LICENSE.txt",
+    "static/media/CS1.png": "/static/media/CS1.6f185a89.png",
+    "static/media/FT.png": "/static/media/FT.5d5a061b.png",
+    "static/media/PG1.png": "/static/media/PG1.7426f2f5.png",
+    "static/media/Projects.scss": "/static/media/Roboto-Bold.e07df86c.ttf",
+    "static/media/App.scss": "/static/media/Shrikhand-Regular.68cc776b.ttf",
+    "static/media/WP1.png": "/static/media/WP1.d30ef536.png",
+    "static/media/me.jpg": "/static/media/me.0d54aa7b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6828ab7.js",
+    "static/js/2.81f1d061.chunk.js",
+    "static/css/main.c2d10f59.chunk.css",
+    "static/js/main.f4ccaa14.chunk.js"
+  ]
+}
