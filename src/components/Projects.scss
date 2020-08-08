@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../assets/Roboto-Bold.ttf');
+}
+
+div[class^="project-card-"] {
+ display: flex;
+ background: white;
+ flex-direction: column;
+ border-radius: 5px;
+ margin-bottom: 4rem;
+ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+ @media (max-width: 767px) {
+    padding-bottom: 2rem;
+ }
+
+ @media (min-width: 768px) {
+    width: 45vw;
+    height: 26vh;
+    flex-direction: row;
+ }
+
+ &:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+ img {
+     max-width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+    @media screen and (min-width: 768px) {
+        width: 50%;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;     
+    }
+  }
+
+  div {
+    width: 100%;
+    position: relative;
+  }
+}
+
+.card-text {
+
+
+    @media (min-width: 768px) {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+    }
+    
+    h3 {
+        color: #2E3440;
+        font-size: 1.4rem;
+
+        @media (min-width: 768px) {
+            margin-top: 0;
+            font-size: 2rem;
+        }
+        @media (min-width: 1200px) {
+            font-size: calc(1.4rem + 12 * ((100vw - 1200px) / 720));
+        }
+    }
+
+    p {
+        color: #2E3440;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        padding: 0 1rem;
+
+        @media (min-width: 768px) {
+            font-size: 1.4rem;
+        }
+
+        @media (min-width: 1200px) {
+            font-size: calc(.9rem + 7 * ((100vw - 1200px) / 720));
+        }
+    }
+    
+    a {
+        background: #BF616A;
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-family: 'Roboto-Bold';
+        padding: .5rem 6rem;
+
+
+        @media (min-width: 768px) {
+            padding: .5rem 7rem;
+            display: block;
+            font-size: 1.6rem;
+
+        }
+
+        &:hover {
+            background: #9F5158;
+        }
+
+        @media (min-width: 1200px) {
+            font-size: calc(19px + 6 * ((100vw - 1200px) / 720));
+        }
+        @media screen and (min-width: 1920px) {
+            padding: 1rem 10rem;
+        }
+    }
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 10vh 2rem 0;
+}
+
+.project-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    @media (min-width: 768px) {
+        flex-direction: row;
+        padding-bottom: 4rem;
+    }
+}
