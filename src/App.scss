@@ -123,6 +123,9 @@ nav {
   &.minimized {
     top: 10vh;
     left: 15vw;
+    @media (max-width: 767px) {
+      display: none;
+    }
 
     h1 {
       @media (min-width: 1200px) {

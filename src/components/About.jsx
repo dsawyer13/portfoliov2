@@ -18,7 +18,7 @@ export default function About() {
                         Although I am most experienced with Javascript—I love learning—and will pick up the right tools for the job.
                     </p>
                     <p>
-                        When I'm not programming, you can find me playing Teamfight Tactics, at the Gym, or building mechanical keyboards.
+                        When I'm not programming, you can find me playing Teamfight Tactics, at the gym, or building mechanical keyboards.
                     </p>
 
                 </div>
