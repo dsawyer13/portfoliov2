@@ -38,6 +38,9 @@ body {
   text-align: center;
   height: 100vh;
   overflow: hidden;
+  @media (max-width: 480px) {
+    overflow-y: scroll;
+  }
 }
 
 .App {
